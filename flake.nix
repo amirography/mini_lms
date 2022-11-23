@@ -94,7 +94,7 @@
 
       packages.miniLMS = miniLMS;
 
-      apps.nixme = flake-utils.lib.mkApp {
+      apps.miniLMS = flake-utils.lib.mkApp {
         drv = miniLMS;
       };
 
